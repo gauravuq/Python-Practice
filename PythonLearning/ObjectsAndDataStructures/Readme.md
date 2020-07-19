@@ -15,5 +15,6 @@
 ####Variables
 * **Keep variable names as lowercase,Connect using _**
 * **Python uses dynamic typing, that means you can reassign the variable to different data type**
+* **It is case sensitive, letter is different from Letter**
 ####Strings
 * **Strings are Immutable, though we can select each character using []**
