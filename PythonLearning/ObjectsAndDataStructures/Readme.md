@@ -1,4 +1,4 @@
-### Python objects and data structures
+## Python objects and data structures
 ####DataTypes
 * **int** : 3,4
 * **float** : 2.2,3.4
@@ -8,6 +8,7 @@
 * **tup** : Ordered immutable sequence of objects **(10,"hello")**
 * **set** : Unordered collection of unique objects **{"a","b"}**
 * **bool** : **True/False**
+* **None** : placeholder null value;
 
 ####Operators
 **+, /, -, star, Double star for raised to Power, %**  : precedence is BODMAS;
@@ -18,3 +19,16 @@
 * **It is case sensitive, letter is different from Letter**
 ####Strings
 * **Strings are Immutable, though we can select each character using []**
+* **They support indexing and slicing operations**
+* **They support [] brackets for fetching characters or substrings**
+* **str() and len() function which are used the most**
+* **Reverse indexing is supported**
+####Lists
+* **Strings are Mutable & allows duplicate values**
+* **They hold different kind of objects & list is an ordered sequence or elements**
+* **They support indexing, slicing operations**
+* **They support [] brackets**
+* **str(),len(), sort(), pop()[from end], append()[to end] function which are used the most**
+* **Supports Concatenation of Lists**
+* **Reverse indexing is supported**
+* **Nested Object Lists are also supported along with mixed list sort() and reverse() operations**
