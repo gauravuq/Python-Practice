@@ -32,3 +32,8 @@
 * **Supports Concatenation of Lists**
 * **Reverse indexing is supported**
 * **Nested Object Lists are also supported along with mixed list sort() and reverse() operations**
+####Dictionary
+* **Dictionaries cannot be sorted as they don't have indexes** 
+* **These contain key:value pair of objects inside {}**
+* **Dictionaries can hold sub dictionaries , lists etc**
+8 **ordereddict is a dictionary with ordering properties**
