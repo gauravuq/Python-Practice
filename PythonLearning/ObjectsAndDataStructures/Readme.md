@@ -4,7 +4,7 @@
 * **float** : 2.2,3.4
 * **str** : "I am great!!" or 'Gaurav Sood'
 * **lst** : Ordered sequence of objects **[10,"Lol", 200.3]**
-* **dic** : Unordered Key:Value Pair **{"mykey":"myvalue"}**
+* **dic** : Unordered Key:Value Pair of objects **{"mykey":"myvalue"}**
 * **tup** : Ordered immutable sequence of objects **(10,"hello")**
 * **set** : Unordered collection of unique objects **{"a","b"}**
 * **bool** : **True/False**
@@ -32,8 +32,21 @@
 * **Supports Concatenation of Lists**
 * **Reverse indexing is supported**
 * **Nested Object Lists are also supported along with mixed list sort() and reverse() operations**
-####Dictionary
+####Dictionaries
 * **Dictionaries cannot be sorted as they don't have indexes** 
 * **These contain key:value pair of objects inside {}**
 * **Dictionaries can hold sub dictionaries , lists etc**
-8 **ordereddict is a dictionary with ordering properties**
+* **ordereddict is a dictionary with ordering properties**
+####Tuples
+* **These are very similar to list , but tuples  have immutability, elements inside cannot be changed once entered**
+* **Tuples uses (), they are ordered**
+* **Tuples provide data integrity in longer code structure**
+* **It only has two functions: count and index**
+* **It has subscript support example:tuple[] does work**
+####Sets
+* **These are collection of unordered unique elements, only unique objects**
+* **These are unindexed & created using set() function or { 1,2,3,4}**
+* **Once a set is created, you cannot change its items, but you can add new items, sets  have immutability**
+* **It has no subscript support example:set[] does not work**
+
+
