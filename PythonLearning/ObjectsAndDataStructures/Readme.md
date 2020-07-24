@@ -9,7 +9,6 @@
 * **set** : Unordered collection of unique objects **{"a","b"}**
 * **bool** : **True/False**
 * **None** : placeholder null value;
-
 ####Operators
 **+, /, -, star, Double star for raised to Power, %**  : precedence is BODMAS;
 (Python performs true division by default, Decimals are returned)
@@ -42,11 +41,17 @@
 * **Tuples uses (), they are ordered**
 * **Tuples provide data integrity in longer code structure**
 * **It only has two functions: count and index**
-* **It has subscript support example:tuple[] does work**
+* **It has subscript support example - tuple[] does work for access**
 ####Sets
 * **These are collection of unordered unique elements, only unique objects**
-* **These are unindexed & created using set() function or { 1,2,3,4}**
+* **These are not indexed & created using set() function or { 1,2,3,4}**
 * **Once a set is created, you cannot change its items, but you can add new items, sets  have immutability**
-* **It has no subscript support example:set[] does not work**
-
-
+* **It has no subscript support example - set[] does not work**
+####Booleans
+* **True/False Capital Always**
+* **'None' can be used a placeholder or as a None value**
+####Files
+* **open("[FileName]") to open a file; write()- to write inside the file opened with proper mode**
+* **close() to manually close a file & Closed is property which print True or False if the file is open or not**
+* **with open([FileName]) as variable name: ; This command is very similar to open by resources of Java; Automatically close the resources**
+* **modes of open function are r, w(OverWrites the File), a, r+, w+(OverWrites the File)**
