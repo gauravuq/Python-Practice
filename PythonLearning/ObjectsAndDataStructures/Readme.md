@@ -38,10 +38,11 @@
 * **ordereddict is a dictionary with ordering properties**
 ####Tuples
 * **These are very similar to list , but tuples  have immutability, elements inside cannot be changed once entered**
-* **Tuples uses (), they are ordered**
+* **Tuples uses () & they are ordered**
 * **Tuples provide data integrity in longer code structure**
 * **It only has two functions: count and index**
 * **It has subscript support example - tuple[] does work for access**
+* **Allows duplicate Item;***
 ####Sets
 * **These are collection of unordered unique elements, only unique objects**
 * **These are not indexed & created using set() function or { 1,2,3,4}**
