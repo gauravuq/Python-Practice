@@ -9,4 +9,4 @@
 * **from library import function1**
 * **input(): to accept user input as a String** 
 * **TypeConversion function : str(),float(),int()**
-[more coming soon !!]
+* **List comprehensions**
